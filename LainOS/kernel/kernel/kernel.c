@@ -15,7 +15,7 @@
 uint32_t page_directory[PAGE_DIRECTORY_ENTRIES] __attribute__((aligned(4096)));
 uint32_t first_page_table[PAGE_DIRECTORY_ENTRIES] __attribute__((aligned(4096)));
 
-void load_page_directory(unsigned int *page_directory_addr) {a
+void load_page_directory(unsigned int *page_directory_addr) {
   asm volatile ("mov %0, %%cr3" : : "r" (page_directory_addr) : "memory"); }
 
 void enable_paging(void) {
