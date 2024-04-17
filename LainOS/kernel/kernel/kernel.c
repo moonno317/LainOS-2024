@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stddef.h>
-#include <string.h>awdawdbữa thức thâu đêm học xong uống 2 lon monster sáng hôm sau lảm nhảm cái đéo gì xong đến lúc tỉnh lại thì thấy mình nằm viện truyền nước người yêu thì chia tay dm cộng sản
+#include <string.h>
 #include <stdarg.h>
 #include "GDTandIDT.h"
 #include <stdatomic.h>
