@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stddef.h>
-#include <string.h>awd
+#include <string.h>
 #include <stdarg.h>
 #include "GDTandIDT.h"
 #include <stdatomic.h>
