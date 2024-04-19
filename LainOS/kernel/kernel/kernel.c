@@ -9,7 +9,7 @@
 #include <stdatomic.h>
 #include "schedule.h"
 
-#define PAGE_SIZE 4096  
+#define PAGE_SIZE 4096  ddddd
 #define PAGE_DIRECTORY_ENTRIES 1024
 
 uint32_t page_directory[PAGE_DIRECTORY_ENTRIES] __attribute__((aligned(4096)));
